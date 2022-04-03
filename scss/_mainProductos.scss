@@ -1,0 +1,75 @@
+main.main_productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        font-size: 40px;
+        font-weight: 700;
+        font-style: italic;
+        text-align: center;
+    }
+
+    section.articulos{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 100%;
+
+        div.productos{
+            display:flex;
+            align-items: center;
+            justify-content: space-evenly;
+            padding-top: 25px;
+            padding-bottom: 25px;
+    
+            button{
+                color: rgb(1, 116, 192); 
+                border-radius: 10%;
+                border-style: none;
+                width: 25px;
+                height: 25px;
+                font-size: 25px;
+            }
+    
+            form {
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+    
+            i {
+                font-size: 25px;
+                color: rgb(1, 116, 192); 
+                padding: 0px 25px 0px 25px;
+            }
+
+        }
+
+        section.fotos{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            padding-bottom: 50px;
+
+            div.card{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                width: 100%;
+                padding-bottom: 50px;
+            }
+
+        }
+
+        img {
+            transition: height 2s, width 2s;
+        }
+
+        img:hover{
+            height: auto; 
+            width: 300px;
+        }
+    }
+}

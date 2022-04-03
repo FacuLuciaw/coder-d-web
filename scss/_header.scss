@@ -1,0 +1,45 @@
+header {
+    align-items: center;
+    background-color: rgb(244, 247, 248);
+    display: flex;
+    grid-area: header;
+    justify-content: space-between;
+
+    img {
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    nav {
+        padding-left: 100px;
+        width: 60%;
+    
+        ul {
+            list-style-type: none;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding-top: 20px;
+        }
+    
+    a {
+        text-decoration: none;
+        color:(1, 116, 192); 
+        font-size: 20px;
+        font-weight: 400;
+
+        i {
+            font-size: 45px;
+            color: rgb(1, 116, 192); 
+        }
+
+            :hover {
+                color: goldenrod;
+        }
+
+    }
+
+    }
+
+}

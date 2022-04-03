@@ -1,0 +1,10 @@
+$estilos:(
+    tFuente: 20px,
+    alineacion: center
+);
+
+div.texto p {
+    font-size: map-get($estilos, tFuente);
+    text-align: map-get($estilos, alineacion );
+}
+

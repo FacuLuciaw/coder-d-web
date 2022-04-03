@@ -1,0 +1,9 @@
+@mixin noticiasImg($width, $height, $bRadius) {
+    width:$width;
+    height:$height;
+    border-radius:$bRadius;
+}
+
+main.noticias section img {
+    @include noticiasImg(400px,900px,75px);
+}

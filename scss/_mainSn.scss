@@ -1,0 +1,36 @@
+main.main_sn {
+        grid-area: main;
+
+    h1 {
+        font-size: 40px;
+        font-weight: 700;
+        font-style: italic;
+        color: rgb(1, 1, 146);
+        text-align: left;
+    }
+    
+    div.principal {
+        display: flex;
+        align-items: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    
+        img{
+            padding: 15px;
+        }
+    }
+
+    p{
+        font-size: 20px;
+        padding: 15px;
+        color: black;
+    }
+
+}
+
+
+
+
+
+
+

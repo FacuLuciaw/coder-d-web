@@ -1,0 +1,10 @@
+.texto {
+    width: 25%;
+    height: 100%;
+    padding-left: 25px;
+}
+
+.texto_sn {
+    @extend .texto;
+    background-color:  #f4f7f8;
+}
